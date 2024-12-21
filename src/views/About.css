@@ -1,0 +1,200 @@
+/* About Page Styles */
+.about-container {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  
+  .about-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .about-introduction {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Mission Section */
+  .mission-section .mission-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .mission-section p {
+    font-size: 1.1rem;
+    color: #777;
+    line-height: 1.8;
+    text-align: left;
+    flex: 1;
+  }
+  
+  .mission-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+  
+  /* Values Section */
+  .values-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .value-item {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .value-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .value-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .value-item h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .value-item p {
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Adoption Process */
+  .adoption-process-section {
+    margin-bottom: 40px;
+  }
+  
+  .adoption-process {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .adoption-process li {
+    margin-bottom: 15px;
+  }
+  
+  /* Gallery Section */
+  .gallery-section {
+    margin-bottom: 40px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Get Involved Section */
+  .get-involved-section {
+    text-align: center;
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .actions .btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .actions .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .actions .btn-secondary {
+    background-color: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  .actions .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .values-section {
+      flex-direction: column;
+    }
+  
+    .value-item {
+      margin-bottom: 20px;
+    }
+  
+    .adoption-process {
+      font-size: 1rem;
+    }
+  
+    .actions .btn {
+      width: 100%;
+    }
+  
+    .mission-section .mission-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mission-image {
+      max-width: 90%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
